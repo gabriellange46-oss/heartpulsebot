@@ -16,7 +16,7 @@ client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
 
   try {
-    await message.react('💓');
+    await message.react('💗');
   } catch (error) {
     console.error('Failed to react:', error);
   }
